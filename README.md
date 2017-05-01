@@ -1,4 +1,4 @@
-# Documents
+# Company Documents
 Official company documents
 
 ## Articles of association
