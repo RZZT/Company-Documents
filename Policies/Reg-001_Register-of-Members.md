@@ -22,7 +22,7 @@ An entry relating to a former member may be removed only after they have ceased 
 
 ## Maintaining the Register of Members
 
-The Company Secretary shall maintain the Register of Members, including updating and removing the details of members as necessary and appropriate.
+The Company Secretary shall maintain the Register of Members, including updating and removing the details of members as necessary and appropriate. The members shall be listed alphabetically by surname, forenames and date of membership from least recent to most recent.
 
 The Register of Members shall be kept electronically, in such form as to be available from the Company's registered office, and accessible at all times by the Company Secretary and Directors with the exception of routine maintenance and unplanned outages.
 
