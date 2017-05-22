@@ -1,6 +1,6 @@
-# [DRAFT] RZZT Policy Document 003-RoDRA: Register of Directors' Residential Addresses
+# [DRAFT] RZZT Policy Document Reg-003: Register of Directors' Residential Addresses
 
-This policy document sets out the legislative requirements for maintaining the Register of Directors' Residential Addresses, and establishes procedures for meeting those requirements. **This policy should be read together with RZZT Policy Document 002-RoD: Register of Directors.**
+This policy document sets out the legislative requirements for maintaining the Register of Directors' Residential Addresses, and establishes procedures for meeting those requirements. **This policy should be read together with RZZT Policy Document Reg-002: Register of Directors.**
 
 ## Legislative requirements
 
