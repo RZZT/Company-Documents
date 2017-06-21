@@ -1,4 +1,4 @@
-[DRAFT] RZZT Policy Document Cor-001: Email Policy
+# [DRAFT] RZZT Policy Document Cor-001: Email Policy
 
 ## Definitions
 
