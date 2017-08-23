@@ -1,4 +1,4 @@
-# [PLACEHOLDER] RZZT Policy Document Reg-005: Overseas Branch Registers
+# [PLACEHOLDER] RZZT Policy Document Registers-005: Overseas Branch Registers
 
 This is a placeholder for a policy document setting out the legislative requirements for maintaining Overseas Branch Registers, and establishes procedures for meeting those requirements.
 
