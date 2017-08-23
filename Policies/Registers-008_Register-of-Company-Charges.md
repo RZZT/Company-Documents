@@ -1,4 +1,4 @@
-# [PLACEHOLDER] RZZT Policy Document Reg-008: Register of Company Charges
+# [PLACEHOLDER] RZZT Policy Document Registers-008: Register of Company Charges
 
 This is a placeholder for a policy document setting out the legislative requirements for maintaining the Register of Company-Charges, and establishes procedures for meeting those requirements.
 
