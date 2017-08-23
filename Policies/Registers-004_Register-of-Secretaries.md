@@ -1,4 +1,4 @@
-# [DRAFT] RZZT Policy Document Reg-004: Register of Secretaries
+# [DRAFT] RZZT Policy Document Registers-004: Register of Secretaries
 
 This policy document sets out the legislative requirements for maintaining the Register of Secretaries, and establishes procedures for meeting those requirements.
 
