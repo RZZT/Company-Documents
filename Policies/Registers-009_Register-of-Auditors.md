@@ -1,4 +1,4 @@
-# [PLACEHOLDER] RZZT Policy Document Reg-009: Register of Auditors
+# [PLACEHOLDER] RZZT Policy Document Registers-009: Register of Auditors
 
 This is a placeholder for a policy document setting out the legislative requirements for maintaining the Register of Auditors, and establishes procedures for meeting those requirements.
 
