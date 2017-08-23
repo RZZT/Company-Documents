@@ -1,4 +1,4 @@
-# [DRAFT] RZZT Policy Document Reg-001: Register of Members
+# [DRAFT] RZZT Policy Document Registers-001: Register of Members
 
 This policy document sets out the legislative requirements for maintaining the Register of Members, and establishes procedures for meeting those requirements.
 
