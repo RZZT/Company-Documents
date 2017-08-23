@@ -1,4 +1,4 @@
-# [PLACEHOLDER] RZZT Policy Document Reg-006: Register of Debenture Holders
+# [PLACEHOLDER] RZZT Policy Document Registers-006: Register of Debenture Holders
 
 This is a placeholder for a policy document setting out the legislative requirements for maintaining the Register of Debenture Holders, and establishes procedures for meeting those requirements.
 
