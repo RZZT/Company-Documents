@@ -1,4 +1,4 @@
-# [DRAFT] RZZT Policy Document Reg-002: Register of Directors
+# [DRAFT] RZZT Policy Document Registers-002: Register of Directors
 
 This policy document sets out the legislative requirements for maintaining the Register of Directors, and establishes procedures for meeting those requirements. **This policy should be read together with RZZT Policy Document Reg-003: Register of Directors' Residential Addresses.**
 
