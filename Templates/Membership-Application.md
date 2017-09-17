@@ -1,8 +1,6 @@
 # RZZT CIC
 
-Registered company number [tba]
-
-[company address]
+UK registered company number 10951485
 
 # Membership application
 
@@ -32,7 +30,7 @@ This will be used for participation in company meetings. Choose and register a n
 
 ## Suitability
 
-### Why do you want to be a member of RZZT?
+### Why do you want to be a member of RZZT CIC?
 
 Please provide a brief description of your reasons for seeking membership.
 
@@ -49,4 +47,4 @@ Please provide a brief description of your reasons for seeking membership.
 - I support the development of free and open-source software that respects, protects or fulfils human rights and civil liberties.
 - I confirm the information provided in this form is accurate and wish to be admitted as a member of RZZT CIC.
 - I consent to the information provided in this form being include in the Register of Members of RZZT CIC, and acknowledge that the Register will be available to all other members on request or any other person on payment of a fee, and that members and other persons may require a copy of the Register.
-- I agree to notify RZZT of any changes to the information provided in this form as soon as possible after they occur.
+- I agree to notify RZZT CIC of any changes to the information provided in this form as soon as possible after they occur.
