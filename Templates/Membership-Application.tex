@@ -1,0 +1,125 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontspec}
+  \setmainfont{Open Sans}
+\usepackage{hyperref}
+\renewcommand{\LayoutChoiceField}[2]{\leavevmode #2 #1}
+\usepackage{titlesec}
+  \titleformat{\section}{\raggedright\LARGE\bfseries}{}{0em}{}[\hrule]
+  \titlespacing{\section}{0em}{1em}{1em}
+  \titleformat{\subsection}{\raggedright\Large\bfseries}{}{0em}{}[\hrule]
+  \titlespacing{\subsection}{0em}{1em}{1em}
+  \titleformat{\subsubsection}{\raggedright\bfseries}{}{0em}{}
+  \titlespacing{\subsubsection}{0em}{1em}{1em}
+\usepackage{xcolor}
+\usepackage{framed}
+  \FrameSep0.5em
+\usepackage{draftwatermark}
+
+\begin{document}
+
+\begin{Form}
+
+\raggedright
+
+\section{RZZT CIC}
+
+UK registered company number 10951485
+
+\section{Membership application}
+
+\subsection{Personal details}
+
+\subsubsection{Forename(s)}
+
+Your full forenames/given names/first names/Christian names.
+
+\begin{framed}%
+  \TextField[width=\textwidth,maxlen=75,donotscroll=true,name=forename]{ }%
+\end{framed}%
+
+\subsubsection{Surname(s)}
+
+Your full surnames/family names/last names.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=surname]{ }%
+\end{framed}%
+
+\subsection{Contact details}
+
+\subsubsection{Full correspondence address}
+
+This does not need to be your usual residential address, but cannot be a PO box. This is required by law, but RZZT will contact you by email unless required to send physical materials.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,multiline=true,name=address]{ }%
+\end{framed}%
+
+\subsubsection{Email address}
+
+This will be the primary contact method for official company correspondence.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=email]{ }%
+\end{framed}%
+
+\subsubsection{IRC nickname}
+
+This will be used for participation in company meetings. Choose and register a nickname by following the instructions at https://freenode.net/kb/answer/registration.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=ircnick]{ }%
+\end{framed}%
+
+\newpage
+
+\section{RZZT CIC}
+
+UK registered company number 10951485
+
+\section{Membership application}
+
+\subsection{Suitability}
+
+\subsubsection{Why do you want to be a member of RZZT CIC?}
+
+Please provide a brief description of your reasons for seeking membership.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,multiline=true,name=reasons]{ }%
+\end{framed}%
+
+\subsubsection{Have you ever been convicted of, or are you currently awaiting trial for, a criminal offence in any jurisdiction that is liable to a penalty of 12 months imprisonment?}
+
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=criminaloffenceradio]{ }{ }Yes\\\vspace{0.5em}
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=criminaloffenceradio]{ }{ }No
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,multiline=true,name=criminaloffence]{ }%
+\end{framed}%
+
+\subsection{Declarations}
+
+\begin{itemize}
+  \renewcommand{\labelitemi}{\CheckBox[name=articles]{ }}
+  \item I have read and understood the Articles of Association of RZZT CIC.
+  \renewcommand{\labelitemi}{\CheckBox[name=liability]{ }}
+  \item I understand that my liability will be GBP £1, which I must contribute for the payment of the Company's liabilities if RZZT CIC winds up while I am a member or within 12 months of my ceasing to be a member.
+  \renewcommand{\labelitemi}{\CheckBox[name=supportfoss]{ }}
+  \item I support the development of free and open-source software that respects, protects or fulfils human rights and civil liberties.
+  \renewcommand{\labelitemi}{\CheckBox[name=infoaccurate]{ }}
+  \item I confirm the information provided in this form is accurate and wish to be admitted as a member of RZZT CIC.
+  \renewcommand{\labelitemi}{\CheckBox[name=consent]{ }}
+  \item I consent to the information provided in this form being include in the Register of Members of RZZT CIC, and acknowledge that the Register will be available to all other members on request or any other person on payment of a fee, and that members and other persons may require a copy of the Register.
+  \renewcommand{\labelitemi}{\CheckBox[name=notify]{ }}
+  \item I agree to notify RZZT CIC of any changes to the information provided in this form as soon as possible after they occur.
+\end{itemize}
+
+\vspace{\fill}
+\rule{0.5\textwidth}{0.5pt}\\
+Signature of applicant
+
+\end{Form}
+
+\end{document}
