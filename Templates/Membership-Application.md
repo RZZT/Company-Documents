@@ -1,6 +1,6 @@
 # RZZT CIC
 
-UK registered company number 10951485
+UK company number 10951485
 
 # Membership application
 
