@@ -108,7 +108,9 @@ Akhilesh was opposed to using Zoho from personal experience. The Directors discu
 **The Directors resolved** that each would look into options for email providers and return to the issue at the next meeting.
 
 ---
+
 Matthew left the meeting at 17:34 UTC±0. Quorum remained satisfied in accordance with the Articles of Association.
+
 ---
 
 ## Branding
@@ -117,7 +119,7 @@ Matthew left the meeting at 17:34 UTC±0. Quorum remained satisfied in accordanc
 
 ## Membership form
 
-The Company Secretary presented a draft membership application form (https://github.com/RZZT/Company-Documents/blob/master/Templates/Membership-Application.md).
+The Company Secretary presented a draft membership application form.
 
 **The Directors resolved** that the membership application be adopted, and that the Company Secretary will create a PDF version of the form which can be provided to and signed by prospective members.
 
