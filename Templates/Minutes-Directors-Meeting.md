@@ -5,7 +5,7 @@ UK company number 10951485
 
 # [DRAFT] Directors' meeting minutes — `[YYYY-MM-DD]`
 
-[**NOTE: These minutes have been approved for publication in draft form by the Directors of RZZT CIC. They have not been confirmed by the Directors as an authoritative record of the meeting.**]
+**NOTE: These minutes have been approved for publication in draft form by the Directors of RZZT CIC. They have not been confirmed by the Directors as an authoritative record of the meeting.**
 
 ## Agenda
 
@@ -35,6 +35,8 @@ Quorum `[was/was not]` satisfied in accordance with the Articles of Association.
 `[Director's name]` was duly appointed Chairperson of the meeting.
 
 ## `[first agenda item]`
+
+## Next meeting
 
 ## Close of meeting
 
