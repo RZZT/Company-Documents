@@ -1,22 +1,41 @@
 \documentclass[a4paper,10pt]{article}
+\usepackage[australian,english]{babel}
 \usepackage[margin=1in]{geometry}
+\usepackage{lastpage}
 \usepackage{fontspec}
   \setmainfont{Open Sans}
 \usepackage{hyperref}
 \renewcommand{\LayoutChoiceField}[2]{\leavevmode #2 #1}
-\usepackage{titlesec}
-  \titleformat{\section}{\raggedright\LARGE\bfseries}{}{0em}{}[\hrule]
-  \titlespacing{\section}{0em}{1em}{1em}
-  \titleformat{\subsection}{\raggedright\Large\bfseries}{}{0em}{}[\hrule]
-  \titlespacing{\subsection}{0em}{1em}{1em}
-  \titleformat{\subsubsection}{\raggedright\bfseries}{}{0em}{}
-  \titlespacing{\subsubsection}{0em}{1em}{1em}
+\usepackage{fancyhdr}
+  \lhead{RZZT CIC}
+  \chead{}
+  \rhead{Membership application}
+  \lfoot{\thepage/\pageref{LastPage}}
+  \rfoot{\today}
+  \cfoot{}
+  \renewcommand{\headrule}{}
+  \pagestyle{fancy}
+  \fancypagestyle{firstpage}{%
+    \lhead{}
+    \rhead{}
+    \lfoot{\thepage/\pageref{LastPage}}
+    \rfoot{\today}
+  }
+  \usepackage{titlesec}
+    \titleformat{\section}{\raggedright\LARGE\bfseries}{}{0em}{}[\hrule]
+    \titlespacing{\section}{0em}{1em}{2em}
+    \titleformat{\subsection}{\raggedright\Large\bfseries}{}{0em}{}[\hrule]
+    \titlespacing{\subsection}{0em}{1em}{1em}
+    \titleformat{\subsubsection}{\raggedright\bfseries}{}{0em}{}
+    \titlespacing{\subsubsection}{0em}{0em}{0em}
 \usepackage{xcolor}
 \usepackage{framed}
   \FrameSep0.5em
-\usepackage{draftwatermark}
+% \usepackage{draftwatermark}
 
 \begin{document}
+
+\thispagestyle{firstpage}
 
 \begin{Form}
 
@@ -74,12 +93,6 @@ This will be used for participation in company meetings. Choose and register a n
 
 \newpage
 
-\section{RZZT CIC}
-
-UK registered company number 10951485
-
-\section{Membership application}
-
 \subsection{Suitability}
 
 \subsubsection{Why do you want to be a member of RZZT CIC?}
@@ -119,6 +132,10 @@ Please provide a brief description of your reasons for seeking membership.
 \vspace{\fill}
 \rule{0.5\textwidth}{0.5pt}\\
 Signature of applicant
+
+\vspace{\fill}
+
+\textbf{Please return this completed form to secretary@rzzt.io. The Company Secretary will confirm the form has been correctly filled in, and forward it to the Directors if it is or notify you if it is not. Please note that the Directors may request further information if necessary, and may require a meeting with you over an appropriate medium.}
 
 \end{Form}
 
