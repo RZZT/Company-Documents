@@ -3,9 +3,7 @@
 
 UK company number 10951485
 
-# [DRAFT] Directors' meeting minutes — 2017-11-09
-
-**NOTE: These minutes have been approved for publication in draft form by the Directors of RZZT CIC. They have not been confirmed by the Directors as an authoritative record of the meeting.**
+# Directors' meeting minutes — 2017-11-09
 
 ## Agenda
 
