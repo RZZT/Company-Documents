@@ -16,6 +16,10 @@ The Membership Application is provided in LaTeX and PDF formats to allow for eas
 
 Minutes of meetings and decisions are published here in draft form until signed by two Directors or a Director and the Company Secretary.
 
+## Committee Terms of Reference
+
+Documents that constitute various committees which may be made from time-to-time.
+
 ## Resources
 
 Contains reports and papers produced by, for or on behalf of RZZT CIC to assist in deliberations and corporate transparency. May contain documents in a number of formats, including LaTeX, Markdown, PDF and plain text.
