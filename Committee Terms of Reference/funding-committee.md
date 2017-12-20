@@ -14,7 +14,7 @@ The Funding Committee shall exist indefinitely.
 
 ## Membership
 
-The Funding Committee consists of the Company Secretary (acting in an advisory capacity) and one Director appointed by the Directors.
+The Funding Committee consists of the Company Secretary and one Director appointed by the Directors.
 
 ## Powers and responsibilities
 
