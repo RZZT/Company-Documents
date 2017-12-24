@@ -22,7 +22,7 @@ UK company number 10951485
 
 ## Introductory matters
 
-The Directors of RZZT CIC met online via IRC on 24 December 2017 at 04:50 UTC±0.
+The Directors of RZZT CIC met online via IRC on Sunday 24 December 2017 at 04:50 UTC±0.
 
 Directors in attendance were:
 
@@ -43,7 +43,7 @@ The Directors confirmed that the requirement of seven clear days' notice for Dir
 
 ## Taskhive
 
-The Directors noted that the [decision to fund the Taskhive project on Sudnay 17 December 2017 at 14:16 UTC±0](https://github.com/RZZT/Company-Documents/blob/master/Minutes/Minutes-2017-12-17-Decisions-without-Meeting.md#minute-of-resolution-concerning-development-of-the-taskhive-project--2017-12-17) did not commit the Company to providing any funds. Funding of the project will be contingent upon available resources and the entering into of binding contracts.
+The Directors noted that the [decision to fund the Taskhive project on Sunday 17 December 2017 at 14:16 UTC±0](https://github.com/RZZT/Company-Documents/blob/master/Minutes/Minutes-2017-12-17-Decisions-without-Meeting.md#minute-of-resolution-concerning-development-of-the-taskhive-project--2017-12-17) did not commit the Company to providing any funds. Funding of the project will be contingent upon available resources and the entering into of binding contracts.
 
 ## Funding Committee
 
@@ -55,7 +55,7 @@ The Directors declined to make a decision concerning the terms of reference.
 
 Akhilesh joined the meeting at 05:27 UTC±0.
 
-The Directors clarified the decision to apply for funding from the Pineapple Fund by resolving that the amount to be applied for shall be $250,000 (USD), and that explicit mention of the intention to fund Taskhive shall be mentioned in the application.
+The Directors clarified their [decision to apply for funding from the Pineapple Fund on Sunday 17 December at 14:16 UTC±0](https://github.com/RZZT/Company-Documents/blob/master/Minutes/Minutes-2017-12-17-Decisions-without-Meeting.md#minute-of-resolution-concerning-application-for-funds-from-the-pineapple-fund--2017-12-17) by resolving that the amount to be applied for shall be $250,000 (USD), and that explicit mention of the intention to fund Taskhive shall be mentioned in the application.
 
 ## GDAX
 
