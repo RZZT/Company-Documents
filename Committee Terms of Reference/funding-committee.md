@@ -26,7 +26,7 @@ The Funding Committee:
 
 ## Decision making
 
-The Funding Committee shall make decisions on the basis of unanimity. The Directors may intervene and direct the Committee to take or refrain from taking certain action as they deem appropriate.
+The Funding Committee shall make decisions on the basis of unanimity of all members. The Directors may intervene and direct the Committee to take or refrain from taking certain action as they deem appropriate. No decision may be made if there is a vacancy in the Committee's membership.
 
 ## Records
 
