@@ -1,0 +1,25 @@
+business_name: RZZT CIC
+business_information:
+    - UK company number 10951485
+functional_currency: USD
+accounts:
+    -
+        name: Patreon
+        type: Asset
+    -
+        name: Unliquidated assets
+        type: Asset
+    -
+        name: Patreon contributions
+        type: Income
+    -
+        name: Unliquidated contributions
+        type: Income
+    -
+        name: Patreon fees
+        type: Expense
+currencies:
+    -
+        name: United States Dollars
+        code: USD
+        symbol: $
