@@ -2,6 +2,14 @@
 
 Most of RZZT CIC's official company documents are published here. Documents containing personal, private or confidential information are kept offline.
 
+## Accounts
+
+A configuration file and journal entry files are provided for use with [Addier](https://github.com/experimenthouse/Addier). Replace the default `config.yaml` and `journal` folder with the files provided here, and run the script according to the instructions. The most recent version of the compiled accounts is available [here](https://rzzt.io/accounts/summary.html).
+
+## Committee Terms of Reference
+
+Documents that constitute various committees which may be made from time-to-time.
+
 ## Constitution
 
 The Articles of Association (the primary part of the Company Constitution) are provided in LaTeX and PDF formats to allow easy version control and modification, and to maintain readability and ease of resubmission if amended.
@@ -14,11 +22,11 @@ The Membership Application is provided in LaTeX and PDF formats to allow for eas
 
 ## Minutes
 
-Minutes of meetings and decisions are published here in draft form until signed by two Directors or a Director and the Company Secretary.
+Minutes of meetings and decisions are published here.
 
-## Committee Terms of Reference
+## Other documents
 
-Documents that constitute various committees which may be made from time-to-time.
+Miscellaneous documents not otherwise classified.
 
 ## Resources
 
