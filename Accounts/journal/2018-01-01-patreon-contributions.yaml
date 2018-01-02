@@ -1,0 +1,14 @@
+date: 2018-01-01
+narration: Public contributions
+debit:
+  -
+    account: Patreon
+    amount: 101.76
+  -
+    account: Patreon fees
+    amount: 8.24
+credit:
+  -
+    account: Patreon contributions
+    amount: 110.00
+note: Funds cannot be used directly, but must be withdrawn to a bank or PayPal account. A fee of $3.00 applies per withdrawal to a bank account, or 1% (capped at 20%) of the withdrawal to PayPal.

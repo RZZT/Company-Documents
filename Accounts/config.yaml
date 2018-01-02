@@ -1,6 +1,7 @@
 business_name: RZZT CIC
 business_information:
     - UK company number 10951485
+base_url: "https://rzzt.io/accounts"
 functional_currency: USD
 accounts:
     -
