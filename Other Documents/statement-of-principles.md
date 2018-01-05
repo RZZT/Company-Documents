@@ -2,7 +2,7 @@
 
 UK company number 10951485
 
-This document was tabled at the Directors' meeting on Sunday 24 December 2017.
+This document was tabled and adopted at the Directors' meeting on Sunday 24 December 2017.
 
 # Statement of Principles
 
