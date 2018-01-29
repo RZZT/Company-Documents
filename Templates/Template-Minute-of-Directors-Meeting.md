@@ -32,7 +32,8 @@ Quorum `[was/was not]` satisfied in accordance with the Articles of Association.
 
 `[Director's name]` was duly appointed Chairperson of the meeting.
 
-`The Directors confirmed that the requirement of seven clear days' notice for Directors' meetings was met, notice of the meeting being given on [DD Month YYYY] at [HH:MM] UTC±0.
+```
+The Directors confirmed that the requirement of seven clear days' notice for Directors' meetings was met, notice of the meeting being given on [DD Month YYYY] at [HH:MM] UTC±0.
 
 [or]
 
@@ -40,7 +41,8 @@ The Directors confirmed that the requirement of seven clear days' notice for Dir
 
 [or]
 
-The Directors confirmed that the requirement of seven clear days' notice for Directors' meetings required by the Articles of Association was dispensed with by unanimous consent of the Directors, the meeting date and time being set at the previous meeting at which all Directors were present.`
+The Directors confirmed that the requirement of seven clear days' notice for Directors' meetings required by the Articles of Association was dispensed with by unanimous consent of the Directors, the meeting date and time being set at the previous meeting at which all Directors were present.
+```
 
 ## `[first agenda item]`
 
