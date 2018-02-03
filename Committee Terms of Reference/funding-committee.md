@@ -16,16 +16,21 @@ The Funding Committee shall exist indefinitely.
 
 The Funding Committee consists of:
 
-- the Company Secretary,
-- one Director appointed by the Directors, and
-- a person with sufficient expertise on free software and open source projects, as determined by the Directors.
+- the Company Secretary;
+- one Director appointed by the Directors;
+- one or more persons who are part of the free software and open source community, as determined by the Directors; and
+- any other person that may be necessary, as determined by the Directors.
+
+## Leadership
+
+The Funding Committee shall be led by the Funding Officer, who shall be the Director appointed to the Funding Committee in that capacity.
 
 ## Powers and responsibilities
 
 The Funding Committee:
 
-- may consult externally to gather information relating to its purpose,
-- does not have authority to accept funding or commit to expenditure, and
+- may consult externally to gather information relating to its purpose;
+- does not have authority to accept funding or commit to expenditure; and
 - shall provide reports and recommendations to the Directors on its own initiative or at the request of the Directors.
 
 ## Decision making
