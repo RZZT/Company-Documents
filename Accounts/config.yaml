@@ -8,16 +8,25 @@ accounts:
         name: Patreon
         type: Asset
     -
+        name: PayPal
+        type: Asset
+    -
         name: Unliquidated assets
         type: Asset
     -
         name: Patreon contributions
         type: Income
     -
+        name: PayPal contributions
+        type: Income
+    -
         name: Unliquidated contributions
         type: Income
     -
         name: Patreon fees
+        type: Expense
+    -
+        name: PayPal fees
         type: Expense
 currencies:
     -
