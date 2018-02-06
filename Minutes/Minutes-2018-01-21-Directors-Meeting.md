@@ -57,7 +57,7 @@ The Directors resolved to discuss remuneration of the Company's officers on outs
 
 ## Preliminary public relations risk assessment
 
-- The [preliminary public relations risk assessment](https://github.com/RZZT/Company-Documents/blob/master/Other%20Documents/preliminary-public-relations-risk-assessment.pdf) provided to the Company by Joseph Olbrycht-Palmer was tabled.
+- The preliminary public relations risk assessment provided to the Company by external consultant Joseph Olbrycht-Palmer was tabled. This document is available to Directors and Members on request to the Company Secretary ([secretary@rzzt.io](mailto:secretary@rzzt.io)).
 - The Directors resolved to discuss the assessment outside the meeting, with action to be taken on its recommendations when appropriate.
 
 ## Definition of human rights and civil liberties
