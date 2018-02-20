@@ -35,7 +35,7 @@ Apologies were received from Akhilesh Jamdar.
 
 Quorum was satisfied in accordance with the Articles of Association.
 
-Matthew was duly appointed Chairperson of the meeting.
+Matthew was duly appointed chair of the meeting.
 
 The Directors confirmed that the requirement of seven clear days' notice for Directors' meetings was met, notice of the meeting being given on [Sunday 28 January 2018](https://github.com/RZZT/Company-Documents/blob/master/Minutes/Minutes-2018-01-28-Directors-Meeting.md).
 
