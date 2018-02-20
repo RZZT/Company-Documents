@@ -2,7 +2,7 @@
 
 UK company number 10951485
 
-# Directors' meeting minutes - 2018-02-10
+# Directors' meeting minutes — 2018-02-10
 
 ## Agenda
 
@@ -38,10 +38,12 @@ The Directors noted that the Taskhive project alpha version was nearly complete 
 
 ## Membership acquisition
 
-- The Directors noted that the current number of members is an even number (six) and that this is undesirable because:
-    - the total number of members does not outweigh the total number of Directors, who are also currently members, meaning that the members would not be able to exercise their reserve power effectively; and
-    - an even number of members can result in an equality of votes.
-- Matthew noted that this should not lead to increasing membership for the sake of it, but that a suitable candidate should be located.
+The Directors noted that the current number of members is an even number (six) and that this is undesirable because:
+
+- the total number of members does not outweigh the total number of Directors, who are also currently members, meaning that the members would not be able to exercise their reserve power effectively; and
+- an even number of members can result in an equality of votes.
+    
+Matthew noted that this should not lead to increasing membership for the sake of it, but that a suitable candidate should be located.
 
 ## Next Meeting
 
