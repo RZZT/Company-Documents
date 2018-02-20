@@ -2,7 +2,7 @@
 
 UK company number 10951485
 
-# Directors' meeting minutes - 2018-02-03
+# Directors' meeting minutes — 2018-02-03
 
 ## Agenda
 
@@ -29,8 +29,9 @@ The Directors confirmed that the requirement of seven clear days' notice for Dir
 
 ## Next Meeting
 
-- Matthew stated that due to their importance he did not wish to make decisions on any agenda items proposed without the presence of all Directors.
-- The Directors resolved to postpone the meeting to Monday 5 February 2018 at 02:30 UTC±0.
+Matthew stated that due to their importance he did not wish to make decisions on any agenda items proposed without the presence of all Directors.
+
+The Directors resolved to postpone the meeting to Monday 5 February 2018 at 02:30 UTC±0.
 
 ## Close of Meeting
 
