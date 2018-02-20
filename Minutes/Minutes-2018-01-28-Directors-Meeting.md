@@ -41,13 +41,15 @@ The Directors confirmed that the requirement of seven clear days' notice for Dir
 
 ## Membership applications
 
-- An application for membership was received from Susan Sons.
-- The Directors resolved to accept Susan Sons' application for membership, and directed the Company Secretary to record her details in the Register of Members.
+An application for membership was received from Susan Sons.
+
+The Directors resolved to accept Susan Sons' application for membership, and directed the Company Secretary to record her details in the Register of Members.
 
 ## Funding Committee membership
 
-- The Directors affirmed their [decision without a meeting to establish the Funding Committee and adopt its terms of reference](https://github.com/RZZT/Company-Documents/blob/master/Minutes/Minutes-2018-01-26-Decision-without-Meeting.md), made on Friday 1 January 2018.
-- The Directors resolved that Akhilesh be appointed to the Funding Committee in his capacity as a Director.
+The Directors affirmed their [decision without a meeting to establish the Funding Committee and adopt its terms of reference](https://github.com/RZZT/Company-Documents/blob/master/Minutes/Minutes-2018-01-26-Decision-without-Meeting.md), made on Friday 1 January 2018.
+
+The Directors resolved that Akhilesh be appointed to the Funding Committee in his capacity as a Director.
 
 ## Awards nominees
 
@@ -63,8 +65,9 @@ The Directors resolved that a list of documents to be published and a list of do
 
 ## Platform changes suggestion
 
-- Mike raised the possibility of moving from Slack to Mattermost for internal communications.
-- The Directors resolved to investigate this prior to the next meeting, at which time a decision may be made.
+Mike raised the possibility of moving from Slack to Mattermost for internal communications.
+
+The Directors resolved to investigate this prior to the next meeting, at which time a decision may be made.
 
 ## Regularisation of Meetings
 
