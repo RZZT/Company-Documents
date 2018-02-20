@@ -2,7 +2,7 @@
 
 UK company number 10951485
 
-# Directors' meeting minutes - 2018-02-05
+# Directors' meeting minutes — 2018-02-05
 
 ## Agenda
 
@@ -36,17 +36,19 @@ The Directors confirmed that the requirement of seven clear days' notice for Dir
 
 ## Funding Committee membership vote
 
-- The Directors noted that the appointment of Susan Sons to the Funding Committee was contingent upon Akhilesh's vote, a proposal for a decision without a meeting having been circulated and awaiting his response.
-- The Directors noted that Matthew and Victor had both approved Susan's appointment.
+The Directors noted that the appointment of Susan Sons to the Funding Committee was contingent upon Akhilesh's vote, a proposal for a decision without a meeting having been circulated and awaiting his response.
+
+The Directors noted that Matthew and Victor had both approved Susan's appointment.
 
 ## Taskhive progress
 
-- The Directors resolved to discuss with the leader of the Taskhive project as to whether further developers were currently needed and, if so, in which areas.
+The Directors resolved to discuss with the leader of the Taskhive project as to whether further developers were currently needed and, if so, in which areas.
 
 ## Statement on human rights
 
-- The Directors noted that a proposal for a decision without a meeting had been circulated on a statement of human rights to be adopted by the Company.
-- The Directors also noted that the Directors had disagreed on which version of the statement should be adopted.
+The Directors noted that a proposal for a decision without a meeting had been circulated on a statement of human rights to be adopted by the Company.
+
+The Directors also noted that the Directors had disagreed on which version of the statement should be adopted.
 
 ## Documents to be published
 
