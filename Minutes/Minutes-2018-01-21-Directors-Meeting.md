@@ -39,13 +39,15 @@ The Directors confirmed that the requirement of seven clear days' notice for Dir
 
 ## Funding Committee
 
-- Akhilesh tabled the [draft terms of reference for the Funding Committee](https://github.com/RZZT/Company-Documents/blob/150477fd057a6f5ec69c36bfcd37945e8d0dcc57/Committee%20Terms%20of%20Reference/funding-committee.md) and moved that it be adopted.
-- The Directors resolved not to adopt the terms of reference.
+Akhilesh tabled the [draft terms of reference for the Funding Committee](https://github.com/RZZT/Company-Documents/blob/150477fd057a6f5ec69c36bfcd37945e8d0dcc57/Committee%20Terms%20of%20Reference/funding-committee.md) and moved that it be adopted.
+
+The Directors resolved not to adopt the terms of reference.
 
 ## Awards Committee
 
-- The matter of establishing an Awards Committee was deferred to the next meeting.
-- The Directors resolved that each would put forward at least one nominee for an award before the next meeting.
+The matter of establishing an Awards Committee was deferred to the next meeting.
+
+The Directors resolved that each would put forward at least one nominee for an award before the next meeting.
 
 ## Administrative costs
 
@@ -57,8 +59,9 @@ The Directors resolved to discuss remuneration of the Company's officers on outs
 
 ## Preliminary public relations risk assessment
 
-- The preliminary public relations risk assessment provided to the Company by external consultant Joseph Olbrycht-Palmer was tabled. This document is available to Directors and Members on request to the Company Secretary ([secretary@rzzt.io](mailto:secretary@rzzt.io)).
-- The Directors resolved to discuss the assessment outside the meeting, with action to be taken on its recommendations when appropriate.
+The preliminary public relations risk assessment provided to the Company by external consultant Joseph Olbrycht-Palmer was tabled. This document is available to Directors and Members on request to the Company Secretary ([secretary@rzzt.io](mailto:secretary@rzzt.io)).
+
+The Directors resolved to discuss the assessment outside the meeting, with action to be taken on its recommendations when appropriate.
 
 ## Definition of human rights and civil liberties
 
