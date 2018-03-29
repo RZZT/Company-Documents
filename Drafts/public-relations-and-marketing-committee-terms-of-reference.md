@@ -1,4 +1,4 @@
-<--
+<!--
 ---
 layout: document
 title: Public Relations and Marketing Committee Terms of Reference
