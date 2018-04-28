@@ -11,8 +11,14 @@ accounts:
         name: PayPal
         type: Asset
     -
+        name: Prepaid invoices
+        type: Asset
+    -
         name: Unliquidated assets
         type: Asset
+    -
+        name: Accounts payable
+        type: Liability
     -
         name: Patreon contributions
         type: Income
@@ -22,6 +28,9 @@ accounts:
     -
         name: Unliquidated contributions
         type: Income
+    -
+        name: Contractor invoices
+        type: Expense
     -
         name: Patreon fees
         type: Expense
