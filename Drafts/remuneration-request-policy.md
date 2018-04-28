@@ -16,9 +16,9 @@ This document sets out the policy and procedure for requesting remuneration from
 In this policy:
 
 - an 'approved expense' is an expense that was approved by the Directors before it was incurred;
-- a 'receipt' includes receipts, paid invoices, payment confirmations, and similar documents authenticating payment;
-- an 'unapproved expense' is an expense that was not approved by the Directors before it was incurred; and
 - an 'authorised person' is a person who is authorised by the Directors to remunerate persons for expenses incurred in connection with Company activities;
+- a 'receipt' includes receipts, paid invoices, payment confirmations, and similar documents authenticating payment; and
+- an 'unapproved expense' is an expense that was not approved by the Directors before it was incurred.
 
 ## Remuneration generally
 
