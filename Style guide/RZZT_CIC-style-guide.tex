@@ -1,0 +1,360 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[noindentafter]{titlesec}
+  \titlespacing{\section}{0pt}{0.5em}{0pt}
+  \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.5pt]}]
+  \titlespacing{\subsection}{0pt}{0pt}{0pt}
+\usepackage[margin=1in]{geometry}
+\usepackage[australian]{babel}
+\usepackage{fontspec}
+  \setmainfont{Raleway}
+\usepackage{xcolor}
+  \definecolor{Black}{RGB}{0,0,0}
+  \definecolor{Grey}{RGB}{117,117,117}
+  \definecolor{White}{RGB}{255,255,255}
+  \definecolor{Orange}{RGB}{255,153,0}
+  \definecolor{Amber}{RGB}{244,176,66}
+  \definecolor{Turquoise}{RGB}{32,178,170}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage[skins]{tcolorbox}
+\usepackage{parskip}
+  \setlength{\parskip}{1em}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\usepackage{listings}
+\lstset{frame=tb,
+  language=HTML,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{Grey},
+  keywordstyle=\color{Turquoise},
+  commentstyle=\color{Grey},
+  stringstyle=\color{Orange},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\newcommand{\swatch}[4]{
+  \setlength{\fboxrule}{0pt}
+  \fcolorbox{Black}{#1}{%
+  \begin{minipage}{0.3\textwidth}
+    \vspace{2em}
+    \begin{centering}
+      {\color{#2}
+      #1\\\##3\\#4\\
+      }
+    \end{centering}
+    \vspace{2em}
+  \end{minipage}
+}}
+
+\newcommand{\pairing}[2]{
+  \setlength{\fboxrule}{0pt}
+  \fcolorbox{Black}{#1}{%
+  \begin{minipage}[t]{0.3\textwidth}
+    \vspace{1em}
+    \begin{centering}
+      #2\\
+    \end{centering}
+    \vspace{1em}
+  \end{minipage}
+}}
+
+\newcommand{\square}[3]{%
+  \setlength{\fboxrule}{0.1pt}%
+  \ifthenelse{\equal{#1}{White}}{%
+    \fcolorbox{Black}{#1}{%
+      \begin{minipage}[c][#2\textwidth]{#2\textwidth}%
+        \includegraphics[width=1\textwidth]{#3}%
+      \end{minipage}%
+    }%
+  }{%
+    \fcolorbox{#1}{#1}{%
+      \begin{minipage}[c][#2\textwidth]{#2\textwidth}%
+        \includegraphics[width=1\textwidth]{#3}%
+      \end{minipage}%
+    }%
+  }%
+}
+
+\newcommand{\round}[3]{%
+  \begin{tikzpicture}%
+    \ifthenelse{\equal{#1}{White}}{%
+      \node[circle,draw=Black,line width=0.1pt,inner sep=0pt,fill=#1] (A) {\includegraphics[width=#2\textwidth]{#3}};%
+    }{%
+      \node[circle,draw=#1,line width=0.1pt,inner sep=0pt,fill=#1] (A) {\includegraphics[width=#2\textwidth]{#3}};%
+    }
+  \end{tikzpicture}%
+}
+
+\begin{document}
+
+\title{\textbf{RZZT CIC Style Guide}}
+\author{Public Relations and Marketing Committee}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Colours}
+
+\subsection{Brand colours}
+
+The RGB (red green blue) values given are expressed in standard RGB. Refer to IEC 61966-2-1:1999.
+
+\swatch{Black}{White}{000000}{0,0,0}
+\swatch{Grey}{White}{757575}{117,117,117}
+\swatch{White}{Black}{FFFFFF}{255,255,255}
+
+\setlength{\parskip}{0.01\textwidth}
+
+\swatch{Orange}{Black}{FF9900}{255,153,0}
+\swatch{Amber}{Black}{F4B042}{244,176,66}
+\swatch{Turquoise}{Black}{20B2AA}{32,178,170}
+
+\setlength{\parskip}{1em}
+
+\subsection{Colour pairings}
+
+The following colour pairings are recommended when combining different brand colours. An appropriate level of clarity should be the aim of any design, and there may be circumstances where these pairings are unsuitable, or where other pairings are more suitable.
+
+\pairing{Black}{%
+  \color{White} White on black\\%
+  \color{Orange} Orange on black\\%
+  \color{Amber} Amber on black\\%
+  \color{Turquoise} Turquoise on black
+}
+\pairing{Grey}{%
+  \color{White} White on grey
+}
+\pairing{White}{%
+  \color{Black} Black on white\\%
+  \color{Orange} Orange on white\\%
+  \color{Amber} Amber on white\\%
+  \color{Turquoise} Turquoise on white
+}
+
+\setlength{\parskip}{0.01\textwidth}
+
+\pairing{Orange}{%
+  \color{Black} Black on orange\\%
+  \color{White} White on orange
+}
+\pairing{Amber}{%
+  \color{Black} Black on amber\\%
+  \color{White} White on amber
+}
+\pairing{Turquoise}{%
+  \color{Black} Black on turquoise\\%
+  \color{White} White on turquoise
+}
+
+\setlength{\parskip}{1em}
+
+\section{Typeface}
+
+The Company typeface for all design materials is Raleway. It is available from \url{https://fonts.google.com/specimen/Raleway}.
+
+\section{Logo}
+
+The logo consists of the RZZT symbol and the words `RZZT CIC' below it in the bold variant of the Raleway typeface. The dimensions of the logo in total are 180 units wide by 87 units high.
+
+If the dimensions used are 180 pixels wide by 87 pixels high, the words `RZZT CIC' are in 24 point text size, right-aligned and vertically-centred in an area 37 pixels high.
+
+The logo should have an additional 7 units of padding on the top, left and right sides. The positioning of the text provides approximately the same padding on the bottom.
+
+\subsection{Standard black and white logo versions}
+
+The standard black or white logo versions may be placed on any of the brand colours as backgrounds.
+
+\colorbox{White}{\includegraphics[width=0.18\textwidth]{logo-black.png}}\hspace{\fill}%
+\colorbox{Grey}{\includegraphics[width=0.18\textwidth]{logo-black.png}}\hspace{\fill}%
+\colorbox{Orange}{\includegraphics[width=0.18\textwidth]{logo-black.png}}\hspace{\fill}%
+\colorbox{Amber}{\includegraphics[width=0.18\textwidth]{logo-black.png}}\hspace{\fill}%
+\colorbox{Turquoise}{\includegraphics[width=0.18\textwidth]{logo-black.png}}%
+
+\setlength{\parskip}{0.005\textwidth}
+
+\colorbox{Black}{\includegraphics[width=0.18\textwidth]{logo-white.png}}\hspace{\fill}%
+\colorbox{Grey}{\includegraphics[width=0.18\textwidth]{logo-white.png}}\hspace{\fill}%
+\colorbox{Orange}{\includegraphics[width=0.18\textwidth]{logo-white.png}}\hspace{\fill}%
+\colorbox{Amber}{\includegraphics[width=0.18\textwidth]{logo-white.png}}\hspace{\fill}%
+\colorbox{Turquoise}{\includegraphics[width=0.18\textwidth]{logo-white.png}}%
+
+\setlength{\parskip}{1em}
+
+\subsection{Colour logo versions}
+
+The logo may be used in each of the brand colours and placed on a black or white background.
+
+\colorbox{Black}{\includegraphics[width=0.18\textwidth]{logo-white.png}}\hspace{\fill}%
+\colorbox{Black}{\includegraphics[width=0.18\textwidth]{logo-grey.png}}\hspace{\fill}%
+\colorbox{Black}{\includegraphics[width=0.18\textwidth]{logo-orange.png}}\hspace{\fill}%
+\colorbox{Black}{\includegraphics[width=0.18\textwidth]{logo-amber.png}}\hspace{\fill}%
+\colorbox{Black}{\includegraphics[width=0.18\textwidth]{logo-turquoise.png}}%
+
+\setlength{\parskip}{0.005\textwidth}
+
+\colorbox{White}{\includegraphics[width=0.18\textwidth]{logo-black.png}}\hspace{\fill}%
+\colorbox{White}{\includegraphics[width=0.18\textwidth]{logo-grey.png}}\hspace{\fill}%
+\colorbox{White}{\includegraphics[width=0.18\textwidth]{logo-orange.png}}\hspace{\fill}%
+\colorbox{White}{\includegraphics[width=0.18\textwidth]{logo-amber.png}}\hspace{\fill}%
+\colorbox{White}{\includegraphics[width=0.18\textwidth]{logo-turquoise.png}}%
+
+\setlength{\parskip}{1em}
+
+\subsection{Logo with square backgrounds}
+
+The logo may be placed on square backgrounds if necessary or appropriate.
+
+\square{White}{0.08}{logo-black.png}\hspace{\fill}%
+\square{Grey}{0.08}{logo-black.png}\hspace{\fill}%
+\square{Orange}{0.08}{logo-black.png}\hspace{\fill}%
+\square{Amber}{0.08}{logo-black.png}\hspace{\fill}%
+\square{Turquoise}{0.08}{logo-black.png}\hspace{\fill}%
+\square{Black}{0.08}{logo-white.png}\hspace{\fill}%
+\square{Grey}{0.08}{logo-white.png}\hspace{\fill}%
+\square{Orange}{0.08}{logo-white.png}\hspace{\fill}%
+\square{Amber}{0.08}{logo-white.png}\hspace{\fill}%
+\square{Turquoise}{0.08}{logo-white.png}%
+
+\setlength{\parskip}{0.005\textwidth}
+
+\square{Black}{0.08}{logo-white.png}\hspace{\fill}%
+\square{Black}{0.08}{logo-grey.png}\hspace{\fill}%
+\square{Black}{0.08}{logo-orange.png}\hspace{\fill}%
+\square{Black}{0.08}{logo-amber.png}\hspace{\fill}%
+\square{Black}{0.08}{logo-turquoise.png}\hspace{\fill}%
+\square{White}{0.08}{logo-black.png}\hspace{\fill}%
+\square{White}{0.08}{logo-grey.png}\hspace{\fill}%
+\square{White}{0.08}{logo-orange.png}\hspace{\fill}%
+\square{White}{0.08}{logo-amber.png}\hspace{\fill}%
+\square{White}{0.08}{logo-turquoise.png}%
+
+\setlength{\parskip}{1em}
+
+\subsection{Logo with round backgrounds}
+
+The logo may be placed on round backgrounds if necessary or appropriate.
+
+\round{White}{0.08}{logo-black.png}
+\round{Grey}{0.08}{logo-black.png}
+\round{Orange}{0.08}{logo-black.png}
+\round{Amber}{0.08}{logo-black.png}
+\round{Turquoise}{0.08}{logo-black.png}
+\round{Black}{0.08}{logo-white.png}
+\round{Grey}{0.08}{logo-white.png}
+\round{Orange}{0.08}{logo-white.png}
+\round{Amber}{0.08}{logo-white.png}
+\round{Turquoise}{0.08}{logo-white.png}
+
+\setlength{\parskip}{0.005\textwidth}
+
+\round{Black}{0.08}{logo-white.png}
+\round{Black}{0.08}{logo-grey.png}
+\round{Black}{0.08}{logo-orange.png}
+\round{Black}{0.08}{logo-amber.png}
+\round{Black}{0.08}{logo-turquoise.png}
+\round{White}{0.08}{logo-black.png}
+\round{White}{0.08}{logo-grey.png}
+\round{White}{0.08}{logo-orange.png}
+\round{White}{0.08}{logo-amber.png}
+\round{White}{0.08}{logo-turquoise.png}
+
+\setlength{\parskip}{1em}
+
+\subsection{SVG logo}
+
+The logo can be easily recreated using HTML, CSS and SVG for web-based manipulation. Refer to Appendix A for example code.
+
+\section{Document standards}
+
+\subsection{Spelling and grammar}
+
+Spelling and grammar must adhere to standard British English usage.
+
+\subsection{Dates and times}
+
+Dates and times must be expressed in the format:
+
+\begin{quote}
+  \texttt{\ldots{} on Monday \fbox{7 September 2017 at 12:34}:56 \fbox{UTC+5:30} \ldots}
+\end{quote}
+
+Those parts enclosed in boxes are required, to the extent that they are applicable. Other elements are optional.
+
+\subsection{Print layouts}
+
+Unless there are any special considerations, documents formatted for print must use A4 paper dimensions (refer to ISO 216), 10--12pt body text, and 1-inch (2.54 cm) margins.
+
+\subsection{Referencing}
+
+If references are included in a document, these must conform to version 3 of the \textit{Australian Guide to Legal Citation}. It is available from \url{http://law.unimelb.edu.au/mulr/aglc/about}
+
+\section{Trading disclosures}
+
+Under the \textit{Companies (Trading Disclosures) Regulations 2008} (UK) SI 2008/495 (the `Trading Disclosure Regulations'), British companies are required to include certain information in specified materials. The information required to be displayed or disclosed must be able to be read with the naked eye (see section 2 of the Trading Disclosure Regulations).
+
+\subsection{Registered name}
+
+The registered name of the company, being `RZZT CIC', must be disclosed on a range of materials. Relevantly, this includes business letters, notices and other official publications; business correspondence and documentation; and websites (see section 6 of the Trading Disclosure Regulations). Other materials primarily concern financial instruments and licence applications.
+
+\subsection{Registration information}
+
+In addition to the company name business letters, order forms and websites must include the part of the United Kingdom in which the company is registered; its registered number; the address of the registered office; and the fact that it is a limited company (see section 7 of the Trading Disclosures Regulations). This requirement can be met by placing the below disclaimer in the footer of a document or website, or at the end of the document, or on a relevant page of a website.
+
+\begin{quote}
+  RZZT CIC is a Community Interest Company incorporated in the United Kingdom and registered in England \& Wales as a private company limited by guarantee. Its company number is 10951485, and its registered office is at International House, 776–778 Barking Road, Barking, London, E13 9PJ.
+\end{quote}
+
+\subsection{Names of directors}
+
+Documents cannot include the name of \textit{only} one director, unless the name is included in the text or as a signatory. A letter from a director, or a letter concerning a director, would meet the legislative requirements, but a letterhead or standard footer would need to name \textit{all} or \textit{no} directors.
+
+\newpage
+
+\section{Appendix A: example SVG logo}
+
+The logo can be created for web-based purposes with the below code.
+
+\vspace{1in}
+
+\begin{lstlisting}
+  <style>
+    .logo-container {
+      display: inline-block;
+    }
+    .logo path {
+      fill: #000000;
+    }
+    .logo-text {
+      font-size: 24pt;
+      line-height: 37px;
+      font-weight: bold;
+      text-align: right;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+\end{lstlisting}
+
+\begin{lstlisting}
+  <div class="logo-container">
+    <svg width="180" height="50" class="logo">
+      <path  d="M 0, 0 L 80, 0 L 80, 30 L 100, 30 L 100, 50 L 60, 50 L 60, 20 L 20, 20 L 20, 50 L 0, 50 Z"/>
+      <path d="M 90, 0 L 130, 0 L 130, 30 L 150, 30 L 150, 50 L 110, 50 L 110, 20 L 90, 20 Z"/>
+      <path d="M 140, 0 L 180, 0 L 180, 50 L 160, 50 L 160, 20 L 140, 20 Z"/>
+    </svg>
+    <p class="logo-text">RZZT CIC</p>
+  </div>
+\end{lstlisting}
+
+\end{document}
