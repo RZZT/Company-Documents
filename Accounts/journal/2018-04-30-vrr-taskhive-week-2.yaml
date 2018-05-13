@@ -1,11 +1,11 @@
-date: 2018-04-23
-narration: VRR Taskhive contract (week 1)
+date: 2018-04-30
+narration: VRR Taskhive contract (week 2)
 debit:
   -
     account: Contractor invoices
     amount: 250.00
 credit:
   -
-    account: Accounts payable
+    account: Prepaid invoices
     amount: 250.00
 note: Contract with Victor Rincones Rodriguez for the development of the Taskhive project. Recurring weekly for 12 weeks or until terminated.

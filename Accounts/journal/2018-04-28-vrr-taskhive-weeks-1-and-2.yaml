@@ -6,7 +6,7 @@ debit:
     amount: 250.00
   -
     account: PayPal fees
-    amount: 23.33
+    amount: 23.330
   -
     account: Prepaid invoices
     amount: 250.00
