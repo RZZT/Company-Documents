@@ -1,0 +1,14 @@
+date: 2018-05-15
+narration: VRR Taskhive contract (weeks 1 and 2)
+debit:
+  -
+    account: Accounts payable
+    amount: 500.00
+  -
+    account: PayPal fees
+    amount: 23.33
+credit:
+  - account: PayPal
+    amount: 523.33
+
+note: Two weeks paid for contract with Victor Rincones Rodriguez for the development of the Taskhive project.
