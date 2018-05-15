@@ -5,6 +5,9 @@ base_url: "https://rzzt.io/accounts"
 functional_currency: USD
 accounts:
     -
+        name: Miscellaneous receivables
+        type: Asset
+    -
         name: Patreon
         type: Asset
     -
