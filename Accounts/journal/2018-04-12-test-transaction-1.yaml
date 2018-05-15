@@ -1,0 +1,14 @@
+date: 2018-04-12
+narration: Test transaction
+debit:
+  -
+    account: Miscellaneous receivables
+    amount: 2.00
+  -
+    account: PayPal fees
+    amount: 0.02
+credit:
+  - account: PayPal
+    amount: 2.02
+
+note: Nominal payment sent to Mozart Olbrycht-Palmer (the Company Secretary) to test the veracity of PayPal's assurance that account limitations had been removed.
