@@ -3,8 +3,9 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{lastpage}
 \usepackage{fontspec}
-  \setmainfont{Open Sans}
+  \setmainfont{Raleway}
 \usepackage{hyperref}
+\usepackage{parskip}
 \renewcommand{\LayoutChoiceField}[2]{\leavevmode #2 #1}
 \usepackage{fancyhdr}
   \lhead{RZZT CIC}
@@ -22,13 +23,14 @@
     \rfoot{\today}
   }
   \usepackage{titlesec}
-    \titleformat{\section}{\raggedright\LARGE\bfseries}{}{0em}{}[\hrule]
-    \titlespacing{\section}{0em}{1em}{2em}
+    \titleformat{\section}{\raggedright\LARGE\bfseries}{}{0em}{}
+    \titlespacing{\section}{0em}{0em}{0em}
     \titleformat{\subsection}{\raggedright\Large\bfseries}{}{0em}{}[\hrule]
     \titlespacing{\subsection}{0em}{1em}{1em}
     \titleformat{\subsubsection}{\raggedright\bfseries}{}{0em}{}
     \titlespacing{\subsubsection}{0em}{0em}{0em}
 \usepackage{xcolor}
+\usepackage{graphicx}
 \usepackage{framed}
   \FrameSep0.5em
 % \usepackage{draftwatermark}
@@ -39,13 +41,18 @@
 
 \begin{Form}
 
-\raggedright
+\begin{minipage}[b]{0.5\textwidth}
+  \section{Membership application}
+\end{minipage}
+%
+\begin{minipage}[b]{0.5\textwidth}
+  \raggedleft
+  \includegraphics[width=0.5\textwidth]{logo-black.jpg}
+\end{minipage}
 
-\section{RZZT CIC}
+\hrule
 
-UK registered company number 10951485
-
-\section{Membership application}
+\vspace{2em}
 
 \subsection{Personal details}
 
@@ -91,8 +98,6 @@ This will be used for participation in company meetings. Choose and register a n
   \TextField[width=\textwidth,donotscroll=true,name=ircnick]{ }%
 \end{framed}%
 
-\newpage
-
 \subsection{Suitability}
 
 \subsubsection{Why do you want to be a member of RZZT CIC?}
@@ -105,11 +110,31 @@ Please provide a brief description of your reasons for seeking membership.
 
 \subsubsection{Have you ever been convicted of, or are you currently awaiting trial for, a criminal offence in any jurisdiction that is liable to a penalty of 12 months imprisonment?}
 
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=criminaloffenceradio]{ }{ }Yes\\\vspace{0.5em}
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=criminaloffenceradio]{ }{ }No
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=criminaloffenceradio]{ }{ } Yes
+
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=criminaloffenceradio]{ }{ } No
+
+If yes or unsure, please provide details:
 
 \begin{framed}%
   \TextField[width=\textwidth,donotscroll=true,multiline=true,name=criminaloffence]{ }%
+\end{framed}%
+
+\subsection{Endorsement}
+
+Please provide the name and email address of a current member who endorses your application.
+
+\subsubsection{Name of current member}
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=endorsename]{ }%
+\end{framed}%
+
+
+\subsubsection{Email address of current member}
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=endorseemail]{ }%
 \end{framed}%
 
 \subsection{Declarations}
