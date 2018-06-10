@@ -1,0 +1,11 @@
+date: 2018-06-04
+narration: VRR Taskhive contract (week 7)
+debit:
+  -
+    account: Contractor invoices
+    amount: 250.00
+credit:
+  -
+    account: Accounts payable
+    amount: 250.00
+note: Contract with Victor Rincones Rodriguez for the development of the Taskhive project. Liability incurred and expense accrued for week 7 of 12.
