@@ -2,10 +2,10 @@ date: 2018-07-05
 narration: Registered office renewal
 debit:
   -
-    account: PayPal
+    account: Administrative costs
     amount: 230.26
 credit:
   -
-    account: Administrative costs
+    account: PayPal
     amount: 230.26
 note: Payment to Registered Office Ltd (UK Company No 5295565) for registered office services. Total cost of £168.00 (£70 for registered address, £70 for scan and email service, and £18 for VAT). Total of USD $230.26, at an exchange rate of 0.7296365 GBP per USD, rounded by PayPal.
