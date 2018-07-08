@@ -32,6 +32,9 @@ accounts:
         name: Unliquidated contributions
         type: Income
     -
+        name: Administrative costs
+        type: Expense
+    -
         name: Contractor invoices
         type: Expense
     -
