@@ -2,7 +2,7 @@
 
 **Note: This file contains draft resolutions which have been or may be proposed by members of RZZT CIC. None of the resolutions have been passed by the members of the Company.**
 
-## Draft Resolution 2018-1: Restriction of objects
+## Special Resolution 2019-1: Restriction of objects
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -24,7 +24,7 @@ and open culture
 
 This resolution is intended to prevent scope creep that would diffuse the Company's focus by ensuring that the Company's activities cannot be expanded without the approval of its members. The first point deals with this, while the remaining points are consequential amendments required for grammatical reasons.
 
-## Draft Resolution 2018-2: Number of Directors required to call a meeting
+## Special Resolution 2019-2: Number of Directors required to call a meeting
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -36,7 +36,7 @@ The members of RZZT CIC resolve to amend [Article 14.1](https://rzzt.io/articles
 
 As the Articles of Association restrict the number of Directors to a maximum of three, the requirement of Article 14.1 to have two Directors call, or request a meeting be called, is unnecessarily onerous. This amendment would allow a single Director to call a meeting of the Directors.
 
-## Draft Resolution 2018-3: Length of notice for Directors' meetings
+## Special Resolution 2019-3: Length of notice for Directors' meetings
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -48,7 +48,7 @@ The members of RZZT CIC resolve to amend [Article 14.2](https://rzzt.io/articles
 
 Currently seven clear days' notice is required for a Directors' meeting, unless the Directors unanimously agree on shorter notice or the circumstances are urgent. This is seven days, plus both the day on which notice was given and the day of the meeting itself. The total is therefore about nine days. Reducing this to five clear days' notice makes it easier to hold meetings once a week, while retaining adequate notice. It does not prevent longer notice being given, but merely allows shorter notice.
 
-## Draft Resolution 2018-4: No place for telecommunications meetings
+## Special Resolution 2019-4: No place for telecommunications meetings
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -62,7 +62,7 @@ The members of RZZT CIC resolve to amend [Article 14.4(a)](https://rzzt.io/artic
 
 It is current practice not to provide a physical place for the meeting in notices because there is no single location and IRC or Mumble is used. This amendment makes it clear that a place for the meeting does not need to be specified if the meeting will not occur in a designated physical location.
 
-## Draft Resolution 2018-5: Details for notice of Directors' meetings
+## Special Resolution 2019-5: Details for notice of Directors' meetings
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -87,7 +87,7 @@ The members of RZZT CIC resolve to amend [Article 14.4](https://rzzt.io/articles
 
 This codifies the current practice of giving notice of meetings according to UTC, and listing the day and time for each of the Directors, the Secretary and the registered office. This practice is useful because every time zone can be calculated easily by reference to UTC: time zones are expressed as UTC±N, where N is the number of hours ahead or behind of UTC the time zone is.
 
-## Draft Resolution 2018-6: Secretary to chair Directors' meetings
+## Special Resolution 2019-6: Secretary to chair Directors' meetings
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -105,7 +105,7 @@ The members of RZZT CIC resolve to replace [Article 17](https://rzzt.io/articles
 
 The Secretary does not have voting power, so having them chair the meeting allows them to guide the meeting, keep to the agenda, focus discussion, and act as a neutral mediator at Directors' meeting. This gives Directors freedom to discuss matters without one appearing to have more or authority than another, except where the Secretary is absent. This does not give the Secretary any voting power, as even though the Chair has a casting vote (Article 18.3), the Chair must be a Director (Article 10), and this refers to the Chair of the Directors, not the chair of the meeting.
 
-## Draft Resolution 2018-7: Notice of decisions without a meeting
+## Special Resolution 2019-7: Notice of decisions without a meeting
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
@@ -126,7 +126,7 @@ The members of RZZT CIC resolve to amend [Article 19.2](https://rzzt.io/articles
 
 Current practice is to send an email to all Directors and the Secretary communicating approval. When a decision is made, all officers receive approval at the same time, making it redundant to require either nominating a single recipient or that the recipient to communicate the result to the others. This amendment removes these unnecessary requirements in circumstances where every officer receives approval at the same time. The date of the decision is then the date on which final approval is received from the last Director.
 
-## Draft Resolution 2018-8: Clarifying election of Directors
+## Special Resolution 2019-8: Clarifying election of Directors
 
 **Proposed by:** Mozart Olbrycht-Palmer
 
