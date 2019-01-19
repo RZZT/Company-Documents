@@ -8,7 +8,7 @@
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 5 of the Articles of Association to read:
+The members of RZZT CIC resolve to amend [Article 5](https://rzzt.io/articles-of-association/#5-objects) of the Articles of Association to read:
 
 > The objects of the Company are to carry on activities which benefit the community by:
 >> (a) financing the development of free and open-source software that respects, protects or
@@ -30,7 +30,7 @@ This resolution is intended to prevent scope creep that would diffuse the Compan
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 14.1 of the Articles of Association by replacing 'Two' and 'two' with 'A' and 'a' respectively.
+The members of RZZT CIC resolve to amend [Article 14.1](https://rzzt.io/articles-of-association/#article-14.1) of the Articles of Association by replacing 'Two' and 'two' with 'A' and 'a' respectively.
 
 ### Explanation
 
@@ -42,7 +42,7 @@ As the Articles of Association restrict the number of Directors to a maximum of 
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 14.2 of the Articles of Association by replacing 'seven' with 'five'.
+The members of RZZT CIC resolve to amend [Article 14.2](https://rzzt.io/articles-of-association/#article-14.2) of the Articles of Association by replacing 'seven' with 'five'.
 
 ### Explanation
 
@@ -54,7 +54,7 @@ Currently seven clear days' notice is required for a Directors' meeting, unless 
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 14.4(a) of the Articles of Association by instering after 'place' the words: 
+The members of RZZT CIC resolve to amend [Article 14.4(a)](https://rzzt.io/articles-of-association/#article-14.4) of the Articles of Association by instering after 'place' the words: 
 
 > (unless the meeting will be conducted solely using a telecommunications system)
 
@@ -68,7 +68,7 @@ It is current practice not to provide a physical place for the meeting in notice
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 14.4 of the Articles of Association by:
+The members of RZZT CIC resolve to amend [Article 14.4](https://rzzt.io/articles-of-association/#article-14.4) of the Articles of Association by:
 
 - inserting after 'day and time of the meeting' the words '(in UTC)';
 - removing the last 'and' in Article 14.4(a);
@@ -93,7 +93,7 @@ This codifies the current practice of giving notice of meetings according to UTC
 
 ### Resolution text
 
-The members of RZZT CIC resolve to replace Article 17 of the Articles of Association with:
+The members of RZZT CIC resolve to replace [Article 17](https://rzzt.io/articles-of-association/#17-chairing-of-directors-meetings) of the Articles of Association with:
 
 > 17.1 The Secretary, if any, shall preside as chair of each Directors' meeting, unless the Directors determine otherwise.
 >
@@ -111,7 +111,7 @@ The Secretary does not have voting power, so having them chair the meeting allow
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 19.2 of the Articles of Association by:
+The members of RZZT CIC resolve to amend [Article 19.2](https://rzzt.io/articles-of-association/#article-19.2) of the Articles of Association by:
 
 - inserting at the end of Article 19.2(b) the words 'unless each Director has sent approval electronically to all Directors and the Secretary at the same time and in the same form;'; and
 - replacing Article 19.2(c) with:
@@ -132,9 +132,9 @@ Current practice is to send an email to all Directors and the Secretary communic
 
 ### Resolution text
 
-The members of RZZT CIC resolve to replace Article 23.4 of the Articles of Association with:
+The members of RZZT CIC resolve to replace [Article 23.4](https://rzzt.io/articles-of-association/#article-23.4) of the Articles of Association with:
 
-> 23.4 In the event that ordinary resolutions are proposed that would, if passed, result in the total number of Directors exceeding three, the Directors shall be determined by an election in which all current and proposed Directors shall be candidates, using a written and open full-preferential ballot counted using the instant run-off method according to which:
+> 23.4 In the event that ordinary resolutions are proposed that would, if all were passed, result in the total number of Directors exceeding three, the Directors shall be determined by an election in which all current and proposed Directors shall be candidates, using a written and open full-preferential ballot counted using the instant run-off method according to which:
 >
 > (a) each of the three most preferred candidates shall be deemed to have been appointed as a Director by ordinary resolution or shall remain as a Director; and
 >
