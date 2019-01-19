@@ -8,12 +8,17 @@
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 5 of the Articles of Association by:
+The members of RZZT CIC resolve to amend Article 5 of the Articles of Association to read:
 
-- replacing 'and in particular (without limitation) to' with 'by:';
-- replacing 'finance' with 'financing';
-- replacing 'promote and provide free education about' with 'promoting and providing free education about'; and
-- replacing 'give' with 'giving'.
+> The objects of the Company are to carry on activities which benefit the community by:
+>> (a) financing the development of free and open-source software that respects, protects or
+fulfills human rights and civil liberties, in particular economic rights, and the rights
+to privacy and freedom of expression,
+
+>> (b) promoting and providing free education about free and open-source software, and
+
+>> (c) giving out awards recognising excellence in the areas of free and open-source software
+and open culture
 
 ### Explanation
 
@@ -29,7 +34,7 @@ The members of RZZT CIC resolve to amend Article 14.1 of the Articles of Associa
 
 ### Explanation
 
-As the Articles of Association restrict the number of Directors to a maximum of three, the requirement to have two Directors call, or request a meeting be called, is unnecessarily onerous. This amendment would allow a single Director to call a meeting of the Directors.
+As the Articles of Association restrict the number of Directors to a maximum of three, the requirement of Article 14.1 to have two Directors call, or request a meeting be called, is unnecessarily onerous. This amendment would allow a single Director to call a meeting of the Directors.
 
 ## Draft Resolution 2018-3: Length of notice for Directors' meetings
 
@@ -49,11 +54,13 @@ Currently seven clear days' notice is required for a Directors' meeting, unless 
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend Article 14.4(a) of the Articles of Association by instering after 'place' the words '(unless the meeting will be conducted solely using a telecommunications system)'.
+The members of RZZT CIC resolve to amend Article 14.4(a) of the Articles of Association by instering after 'place' the words: 
+
+> (unless the meeting will be conducted solely using a telecommunications system)
 
 ### Explanation
 
-It is current practice not to provide a place for the meeting in notices because there is no single location and IRC or Mumble is used. This amendment makes it clear that a place for the meeting does not need to be specified if the meeting will not occur in a designated physical location.
+It is current practice not to provide a physical place for the meeting in notices because there is no single location and IRC or Mumble is used. This amendment makes it clear that a place for the meeting does not need to be specified if the meeting will not occur in a designated physical location.
 
 ## Draft Resolution 2018-5: Details for notice of Directors' meetings
 
@@ -117,7 +124,7 @@ The members of RZZT CIC resolve to amend Article 19.2 of the Articles of Associa
 
 ### Explanation
 
-Current practice is to send an email to all Directors and the Secretary communicating approval. When a decision is made, all officers receive approval at the same time, making it redundant to require either nominating a single recipient or that recipient to communicate the result to the others. This amendment removes these unnecessary requirements in circumstances where every officer receives approval at the same time. The date of the decision is then the date on which final approval is received from the last Director.
+Current practice is to send an email to all Directors and the Secretary communicating approval. When a decision is made, all officers receive approval at the same time, making it redundant to require either nominating a single recipient or that the recipient to communicate the result to the others. This amendment removes these unnecessary requirements in circumstances where every officer receives approval at the same time. The date of the decision is then the date on which final approval is received from the last Director.
 
 ## Draft Resolution 2018-8: Clarifying election of Directors
 
@@ -135,4 +142,4 @@ The members of RZZT CIC resolve to replace Article 23.4 of the Articles of Assoc
 
 ### Explanation
 
-The current version of this article does not reflect my intention when I drafted the Articles of Association. This Article was intended to work as a way to resolve a situation where the total number of Directors would exceed the permitted number, either because there were already three Directors or because there were more people being proposed as Directors than vacancies. It was intended that a vote would take place of all current and proposed Directors, so that members could rank current and proposed Directors, and the three most preferred would be the Directors. The current form of the Article could be interpreted as excluding current Directors, which would not resolve the problem of having more candidates than positions. This makes it clear that an election takes place of current and proposed Directors.
+The current version of this article does not reflect the intention when the Articles of Association were drafted. This Article was intended to work as a way to resolve a situation where the total number of nominated Directors would exceed the number of places, either because there were already three Directors or because there were more people being proposed as Directors than vacancies. It was intended that a vote would take place of all current and proposed Directors, so that members could rank current and proposed Directors, and the three most preferred would be the Directors. The current form of the Article could be interpreted as excluding current Directors, which would not resolve the problem of having more candidates than positions. This makes it clear that an election takes place of current and proposed Directors.
