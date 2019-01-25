@@ -54,9 +54,7 @@ Currently seven clear days' notice is required for a Directors' meeting, unless 
 
 ### Resolution text
 
-The members of RZZT CIC resolve to amend [Article 14.4(a)](https://rzzt.io/articles-of-association/#article-14.4) of the Articles of Association by instering after 'place' the words: 
-
-> (unless the meeting will be conducted solely using a telecommunications system)
+The members of RZZT CIC resolve to amend [Article 14.4(a)](https://rzzt.io/articles-of-association/#article-14.4) of the Articles of Association by inserting after 'place' the words: '(unless the meeting will be conducted solely using a telecommunications system)'.
 
 ### Explanation
 
