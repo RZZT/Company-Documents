@@ -13,16 +13,16 @@ The members of RZZT CIC resolve to amend [Article 5](https://rzzt.io/articles-of
 > The objects of the Company are to carry on activities which benefit the community by:
 >> (a) financing the development of free and open-source software that respects, protects or
 fulfills human rights and civil liberties, in particular economic rights, and the rights
-to privacy and freedom of expression,
+to privacy and freedom of expression;
 
->> (b) promoting and providing free education about free and open-source software, and
+>> (b) promoting and providing free education about free and open-source software; and
 
 >> (c) giving out awards recognising excellence in the areas of free and open-source software
-and open culture
+and open culture.
 
 ### Explanation
 
-This resolution is intended to prevent scope creep that would diffuse the Company's focus by ensuring that the Company's activities cannot be expanded without the approval of its members. The first point deals with this, while the remaining points are consequential amendments required for grammatical reasons.
+This resolution is intended to prevent scope creep that would diffuse the Company's focus by ensuring that the Company's activities cannot be expanded without the approval of its members.
 
 ## Special Resolution 2019-2: Number of Directors required to call a meeting
 
