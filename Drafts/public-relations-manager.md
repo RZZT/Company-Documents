@@ -20,7 +20,7 @@ Public Relations Manager:
 
 1. may consult externally to gather information relating to their role;
 2. does not have authority to commit the Company to any expenditure, contract, partnership, sponsorship or other obligation;
-3. shall provide reports, recommendations and proposals to the Directors on their own initiative or at the request of the Directors;
+3. shall provide reports, recommendations and proposals to the Directors on their own initiative or at the request of the Directors; and
 4. is not required to consult with the Directors in relation to their functions, unless:
     1. they propose to make significant changes to the Company's website; or
     2. they propose to make significant changes to the Company's brand, identity or marketing.
