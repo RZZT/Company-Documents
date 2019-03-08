@@ -1,0 +1,142 @@
+\chapter{Pages}
+
+Pages are sections of the website that can be used to display information about the Company or for grouping other content, such as blog posts.
+
+\section{Making a page}
+
+Standard pages are made by creating a Markdown file somewhere in the website source directory. This can be top-level or it can be in a subdirectory (or subdirectories):
+
+\begin{itemize}
+  \item \texttt{website/page.markdown}
+  \item \texttt{website/pages/page.markdown}
+  \item \texttt{website/pages/category/page.markdown}
+\end{itemize}
+
+Note that the path of the file will determine its location (URL) on the website, unless a permalink is specified in the file itself (see below). In the above examples, without a permalink the pages would be accessible at:
+
+\begin{itemize}
+  \item \texttt{rzzt.io/page.html}
+  \item \texttt{rzzt.io/pages/page.html}
+  \item \texttt{rzzt.io/pages/category/page.html}
+\end{itemize}
+
+\section{Standard page frontmatter}
+
+Each page requires frontmatter at the start of the file to determine its layout and title, and other parameters. This is in YAML format and will typically look like this:
+
+\begin{quote}
+  \texttt{%
+    ---\\
+    layout: page\\
+    title: "Page Title"\\
+    ---
+  }
+\end{quote}
+
+It is a good idea to put the page title in inverted commas to help Jekyll process it without being confused by apostrophes and special characters.
+
+\section{Page URL}
+
+The frontmatter of a page can also be used to specify its URL, which will override its location in the source files:
+
+\begin{quote}
+  \texttt{%
+    ---\\
+    layout: page\\
+    title: "Page Title"\\
+    permalink: "/page-url/"\\
+    ---
+  }
+\end{quote}
+
+This will create a page that can be accessed by visiting:
+
+\begin{itemize}
+  \item \texttt{rzzt.io/page-url/index.html}; or
+  \item \texttt{rzzt.io/page-url/}
+\end{itemize}
+
+\section{Adding a page to the menu}
+
+The RZZT website is able to construct a sitewide navigation menu that supports pages nested to three levels deep. It does this by using the YAML frontmatter of each page to determine whether it should be included and in what order:
+
+\begin{quote}
+  \texttt{%
+    ---\\
+    layout: page\\
+    title: "A"\\
+    permalink: "/page-a/"\\
+    parent: "Home"\\
+    subpages: "yes"\\
+    order: 1\\
+    ---\\
+  }
+\end{quote}
+
+Any page with the parent `Home' will be placed at the top level of the menu.
+
+If other pages should be nested under it in the menu, specify that it has subpages as illustrated in the example. That line can be omitted if no nesting is needed and, even if it is included, will be ignored below the third level.
+
+The `order' parameter determines the position of the page in relation to other pages with the same parent: in the example above, this page will be positioned after any page with the order value `0' and before any page with the order value `2'.
+
+\subsection{Nesting pages}
+
+Pages can be nested in the menu by specifying the title of the parent page in the current page's frontmatter. In the following example, this page will be nested below the page with the title `A':
+
+\begin{quote}
+  \texttt{%
+    ---\\
+    layout: page\\
+    title: "B"\\
+    permalink: "/page-b/"\\
+    parent: "A"\\
+    subpages: "yes"\\
+    order: 1\\
+    ---\\
+  }
+\end{quote}
+
+Pages can be nested to one level further than the example above. Any page with the parent `B' will be nested below the above page.
+
+\subsection{Diagrammatic example of nested pages}
+
+\begin{itemize}
+  \item \texttt{title: "Our Work"\\parent: "Home"\\subpages: "yes"\\order: 0}
+  \begin{itemize}
+    \item \texttt{title: "Funding"\\parent: "Our Work"\\subpages: "yes"\\order: 0}
+    \begin{itemize}
+      \item \texttt{title: "Human Rights \& Civil Liberties"\\parent: "Funding"}
+    \end{itemize}
+    \item \texttt{title: "Awards"\\parent: "Our Work"\\subpages: "yes"\\order: 1}
+    \begin{itemize}
+      \item \ldots{}
+    \end{itemize}
+    \item \texttt{title: "Our Work"\\parent: "Our Work"\\subpages: "yes"\\order: 2}
+    \begin{itemize}
+      \item \ldots{}
+    \end{itemize}
+  \end{itemize}
+  \item \texttt{title: "Get Involved"\\parent: "Home"\\subpages: "yes"\\order: 1}
+  \begin{itemize}
+    \item \ldots{}
+  \end{itemize}
+  \item \texttt{title: "About"\\parent: "Home"\\subpages: "yes"\\order: 2}
+  \begin{itemize}
+    \item \ldots{}
+  \end{itemize}
+\end{itemize}
+
+\section{Page content}
+
+Page content begins after the frontmatter and is written using standard Markdown syntax:
+
+\begin{quote}
+  \texttt{%
+    ---\\
+    layout: page\\
+    title: "Page Title"\\
+    ---\\
+    \\
+    **Cum sociis natoque** penatibus et magnis dis parturient montes, [nascetur ridiculus mus](https://rzzt.io/another-page/). Vestibulum \_id ligula porta\_ felis euismod semper.
+  }
+\end{quote}
