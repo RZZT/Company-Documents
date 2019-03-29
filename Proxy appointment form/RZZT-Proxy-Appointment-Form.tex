@@ -10,7 +10,7 @@
 \usepackage{fancyhdr}
   \lhead{RZZT CIC}
   \chead{}
-  \rhead{Proxy appointment form}
+  \rhead{Proxy Appointment Form}
   \lfoot{\thepage/\pageref{LastPage}}
   \rfoot{\today}
   \cfoot{}
@@ -41,24 +41,28 @@
 
 \begin{Form}
 
-\begin{minipage}[b]{0.5\textwidth}
-  \section{Proxy appointment form}
+\begin{minipage}[b]{0.75\textwidth}
+  \raggedright
+  \LARGE{\textbf{Proxy Appointment Form}}
+  \vspace{0.05em}
 \end{minipage}
 %
-\begin{minipage}[b]{0.5\textwidth}
+\begin{minipage}[b]{0.25\textwidth}
   \raggedleft
-  \includegraphics[width=0.5\textwidth]{logo-black.jpg}
+  \includegraphics[width=1\textwidth]{logo-black.jpg}
 \end{minipage}
 
 \hrule
 
 \vspace{2em}
 
-\subsection{Related meeting}
+\textit{Note: This document must be updated prior to each General Meeting.}
 
-This proxy appointment notice relates to the general meeting of \textbf{Saturday 9 February 2019}.
+\section{Related meeting}
 
-\subsection{Member name}
+This proxy appointment notice relates to the general meeting of \textbf{INSERT DATE}.
+
+\section{Member name}
 
 Please provide your full name as it appears in the Register of Members.
 
@@ -66,7 +70,7 @@ Please provide your full name as it appears in the Register of Members.
   \TextField[width=\textwidth,maxlen=75,donotscroll=true,name=forename]{ }%
 \end{framed}%
 
-\subsection{Member address}
+\section{Member address}
 
 Please provide your full address as it appears in the Register of Members.
 
@@ -74,7 +78,7 @@ Please provide your full address as it appears in the Register of Members.
   \TextField[width=\textwidth,donotscroll=true,multiline=true,name=address]{ }%
 \end{framed}%
 
-\subsection{Proxy}
+\section{Proxy}
 
 Please indicate who you would like to appoint as your proxy.
 
@@ -82,19 +86,19 @@ Please indicate who you would like to appoint as your proxy.
 
 \ChoiceMenu[radio,radiosymbol=\ding{108},name=proxyradio]{ }{ } The person identified below.
 
-\subsubsection{Name of proxy}
+\subsection{Name of proxy}
 
 \begin{framed}%
   \TextField[width=\textwidth,donotscroll=true,name=proxyname]{ }%
 \end{framed}%
 
-\subsubsection{Email address of proxy}
+\subsection{Email address of proxy}
 
 \begin{framed}%
   \TextField[width=\textwidth,donotscroll=true,name=proxyemail]{ }%
 \end{framed}%
 
-\subsubsection{IRC nickname of proxy}
+\subsection{IRC nickname of proxy}
 
 The IRC nickname may be your IRC nickname or a different IRC nickname.
 
@@ -102,51 +106,16 @@ The IRC nickname may be your IRC nickname or a different IRC nickname.
   \TextField[width=\textwidth,donotscroll=true,name=proxynickname]{ }%
 \end{framed}%
 
-\subsection{Voting}
+\section{Voting}
 
 Please indicate whether you wish your proxy to vote in favour (aye), vote against (nay) or abstain from voting in respect to the proposed special resolutions:
 
-\textbf{SR2019-1: Restriction of objects} \hfill
+\textbf{SRYYYY-NUMBER: MOTION NAME} \hfill
 \ChoiceMenu[radio,radiosymbol=\ding{108},name=sr1]{ }{ }Aye
 \ChoiceMenu[radio,radiosymbol=\ding{108},name=sr1]{ }{ }Nay
 \ChoiceMenu[radio,radiosymbol=\ding{108},name=sr1]{ }{ }Abstain
 
-\textbf{SR2019-2: Number of Directors required to call a meeting} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr2]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr2]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr2]{ }{ }Abstain
-
-\textbf{SR2019-3: Length of notice for Directors' meetings} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr3]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr3]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr3]{ }{ }Abstain
-
-\textbf{SR2019-4: No place for telecommunications meetings} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr4]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr4]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr4]{ }{ }Abstain
-
-\textbf{SR2019-5: Details for notice of Directors' meetings} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr5]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr5]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr5]{ }{ }Abstain
-
-\textbf{SR2019-6: Secretary to chair Directors' meetings} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr6]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr6]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr6]{ }{ }Abstain
-
-\textbf{SR2019-7: Notice of decisions without a meeting} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr7]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr7]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr7]{ }{ }Abstain
-
-\textbf{SR2019-8: Clarifying election of Directors} \hfill
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr8]{ }{ }Aye
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr8]{ }{ }Nay
-\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr8]{ }{ }Abstain
-
-\subsection{Other instructions}
+\section{Other instructions}
 
 Please provide any other instructions for your proxy.
 
