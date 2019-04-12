@@ -1,0 +1,136 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[australian,english]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{lastpage}
+\usepackage{fontspec}
+  \setmainfont{Raleway}
+\usepackage{hyperref}
+\usepackage{parskip}
+\renewcommand{\LayoutChoiceField}[2]{\leavevmode #2 #1}
+\usepackage{fancyhdr}
+  \lhead{RZZT CIC}
+  \chead{}
+  \rhead{Proxy Appointment Form}
+  \lfoot{\thepage/\pageref{LastPage}}
+  \rfoot{\today}
+  \cfoot{}
+  \renewcommand{\headrule}{}
+  \pagestyle{fancy}
+  \fancypagestyle{firstpage}{%
+    \lhead{}
+    \rhead{}
+    \lfoot{\thepage/\pageref{LastPage}}
+    \rfoot{\today}
+  }
+  \usepackage{titlesec}
+    \titleformat{\section}{\raggedright\LARGE\bfseries}{}{0em}{}
+    \titlespacing{\section}{0em}{0em}{0em}
+    \titleformat{\subsection}{\raggedright\Large\bfseries}{}{0em}{}[\hrule]
+    \titlespacing{\subsection}{0em}{1em}{1em}
+    \titleformat{\subsubsection}{\raggedright\bfseries}{}{0em}{}
+    \titlespacing{\subsubsection}{0em}{0em}{0em}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{framed}
+  \FrameSep0.5em
+% \usepackage{draftwatermark}
+
+\begin{document}
+
+\thispagestyle{firstpage}
+
+\begin{Form}
+
+\begin{minipage}[b]{0.75\textwidth}
+  \raggedright
+  \LARGE{\textbf{Proxy Appointment Form}}
+  \vspace{0.05em}
+\end{minipage}
+%
+\begin{minipage}[b]{0.25\textwidth}
+  \raggedleft
+  \includegraphics[width=1\textwidth]{logo-black.jpg}
+\end{minipage}
+
+\hrule
+
+\vspace{2em}
+
+% \textit{Note: This document must be updated prior to each General Meeting.}
+
+\section{Related meeting}
+
+This proxy appointment notice relates to the general meeting of \textbf{Saturday 13 April 2019}.
+
+\section{Member name}
+
+Please provide your full name as it appears in the Register of Members.
+
+\begin{framed}%
+  \TextField[width=\textwidth,maxlen=75,donotscroll=true,name=forename]{ }%
+\end{framed}%
+
+\section{Member address}
+
+Please provide your full address as it appears in the Register of Members.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,multiline=true,name=address]{ }%
+\end{framed}%
+
+\section{Proxy}
+
+Please indicate who you would like to appoint as your proxy.
+
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=proxyradio]{ }{ } The Company Secretary.
+
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=proxyradio]{ }{ } The person identified below.
+
+\subsection{Name of proxy}
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=proxyname]{ }%
+\end{framed}%
+
+\subsection{Email address of proxy}
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=proxyemail]{ }%
+\end{framed}%
+
+\subsection{IRC nickname of proxy}
+
+The IRC nickname may be your IRC nickname or a different IRC nickname.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,name=proxynickname]{ }%
+\end{framed}%
+
+\section{Voting}
+
+Please indicate whether you wish your proxy to vote in favour (aye), vote against (nay) or abstain from voting in respect to the proposed special resolutions:
+
+\textbf{SR2019-9: Appointment of Directors} \hfill
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr1]{ }{ }Aye
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr1]{ }{ }Nay
+\ChoiceMenu[radio,radiosymbol=\ding{108},name=sr1]{ }{ }Abstain
+
+\section{Other instructions}
+
+Please provide any other instructions for your proxy.
+
+\begin{framed}%
+  \TextField[width=\textwidth,donotscroll=true,multiline=true,name=instructions]{ }%
+\end{framed}%
+
+\vspace{1in}
+\rule{0.5\textwidth}{0.5pt}\\
+Signature of member
+
+\vspace{1in}
+
+\textbf{Please return this completed form to secretary@rzzt.io. The Company Secretary will confirm the form has been correctly filled in or notify you if it is not.}
+
+\end{Form}
+
+\end{document}
