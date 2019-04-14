@@ -1,5 +1,6 @@
 \documentclass[a4paper,12pt]{article}
 
+\usepackage[australian,english]{babel}
 \usepackage{etoolbox}
 \usepackage[margin=1in]{geometry}
 \usepackage[noindentafter]{titlesec}
@@ -22,6 +23,7 @@
 \usepackage{parskip}
   \setlength{\parskip}{1em}
 \usepackage{xcolor}
+\usepackage{refcount}
 %\usepackage{draftwatermark}
 %  \SetWatermarkScale{5}
 
@@ -55,9 +57,15 @@ Community Interest Company Limited by Guarantee
 
 \textbf{RZZT CIC}
 
+\textbf{UK company registration number 10951485}
+
 \vspace{1em}
 
 \hrule
+
+\vspace{\fill}
+
+As at \today{}
 
 \vspace{\fill}
 
@@ -140,13 +148,13 @@ The Company is to be a community interest company.\footnote{Required by \textit{
 \section{Asset lock}
 
 \begin{enumerate}
-  \item The Company shall not transfer any of its assets other than for full consideration.\footnote{\label{assetlock1}Required by \textit{Community Interest Company Regulations 2005} (UK) SI 2005/1788, sch 1(1).}
+  \item The Company shall not transfer any of its assets other than for full consideration.\footnote{\label{assetlock1} Required by \textit{Community Interest Company Regulations 2005} (UK) SI 2005/1788, sch 1(1).}
   \item Provided the conditions in Article 3.3 are satisfied, Article 3.1 shall not apply to:
   \begin{enumerate}
     \renewcommand{\labelenumii}{(
     \alph{enumii})}
-    \item the transfer of assets to any specified asset-locked body, or (with the consent of the Regulator) to any other asset-locked body,\footnotemark[\ref{assetlock1}] and
-    \item the transfer of assets made for the benefit of the community other than by way of a transfer of assets into an asset-locked body.\footnotemark[\ref{assetlock1}]
+    \item the transfer of assets to any specified asset-locked body, or (with the consent of the Regulator) to any other asset-locked body,\footnotemark[\getrefnumber{assetlock1}] and
+    \item the transfer of assets made for the benefit of the community other than by way of a transfer of assets into an asset-locked body.\footnotemark[\getrefnumber{assetlock1}]
   \end{enumerate}
   \item The conditions are that the transfer of assets must comply with any restrictions on the transfer of assets for less than full consideration which may be set out elsewhere in the Memorandum and Articles of the Company.\footnote{Required by \textit{Community Interest Company Regulations 2005} (UK) SI 2005/1788, sch 2(1).}
   \item If
@@ -295,16 +303,16 @@ Any decision of the Directors must be either a majority decision at a meeting or
 
 \begin{enumerate}
   \item The Secretary, if any, shall preside as chair of each Directors' meeting, unless the Directors determine otherwise.\footnote{\label{sr2019-6}As amended by Special Resolution 2019-6 on 9 February 2019.}
-  \item In the absence of the Secretary, the Chair, if any, shall preside as chair of each Directors' meeting.\footnotemark[\ref{sr2019-6}]
-  \item In the absence of the Secretary and the Chair, another Director nominated by the Directors present shall preside as chair of that meeting.\footnotemark[\ref{sr2019-6}]
+  \item In the absence of the Secretary, the Chair, if any, shall preside as chair of each Directors' meeting.\footnotemark[\getrefnumber{sr2019-6}]
+  \item In the absence of the Secretary and the Chair, another Director nominated by the Directors present shall preside as chair of that meeting.\footnotemark[\getrefnumber{sr2019-6}]
 \end{enumerate}
 
 \section{Decision-making at a meeting}
 
 \begin{enumerate}
   \item Questions arising at a Directors' meeting shall be decided by a majority of votes.\footnote{\label{meetingdecision1}Required by \textit{Community Interest Company Regulations 2005} (UK) SI 2005/1788, sch 1(4).}
-  \item In all proceedings of Directors each Director must not have more than one vote.\footnotemark[\ref{meetingdecision1}]
-  \item In case of an equality of votes, the Chair shall have a second or casting vote.\footnotemark[\ref{meetingdecision1}]
+  \item In all proceedings of Directors each Director must not have more than one vote.\footnotemark[\getrefnumber{meetingdecision1}]
+  \item In case of an equality of votes, the Chair shall have a second or casting vote.\footnotemark[\getrefnumber{meetingdecision1}]
 \end{enumerate}
 
 \section{Decisions without a meeting}
@@ -359,17 +367,18 @@ The Directors shall cause a register of Directors' interests to be kept. A Direc
 \begin{enumerate}
   \item Those persons notified to the Registrar of Companies as the first Directors of the Company shall be the first Directors.
   \item A person may not be appointed to be a Director if they have ever been convicted of, or are currently awaiting trial for, a criminal offence in any jurisdiction that is liable to a penalty of 12 months imprisonment.
+
   \item Subject to these articles, any person who is willing to act as a Director, and is permitted by law to do so, may be appointed to be a Director
   \begin{enumerate}
-    \renewcommand{\labelenumii}{(\alph{enumii})}
-    \item by ordinary resolution, or
+    \item by ordinary resolution; or
     \item by a decision of the Directors,
   \end{enumerate}
-  so long as the total number of Directors does not exceed three.
-  \item  In the event that ordinary resolutions are proposed that would, if all were passed, result in the total number of Directors exceeding three, the Directors shall be determined by an election in which all current and proposed Directors shall be candidates, using a written and open full-preferential ballot counted using the instant run-off method according to which:
+  but no more than 50\% of the Members may be Directors (``Member-Directors'') at the same time, reckoned according to the total number of members at the time of the most recent appointment of a Member as a Director.\footnote{As amended by Special Resolution 2019-9 on 13 April 2019.}
+  \item Subject to Article 23.3, in the event that ordinary resolutions are proposed that would, if all were passed, result in the appointment of more than 50\% of the Members as Directors, the Member-Directors shall be determined by an election in which all current and proposed Member-Directors shall be candidates, using a written and open optional-preferential ballot counted using the instant run-off method according to which:
   \begin{enumerate}
-    \item each of the three most preferred candidates shall be deemed to have been appointed as a Director by ordinary resolution or shall remain as a Director; and
-    \item all other candidates shall be deemed to have been removed as a Director by ordinary resolution or shall not be appointed as a Director.\footnote{As amended by Special Resolution 2019-8 on 9 February 2019.}
+    \item any candidate who has been ranked by at least 50\% of the votes cast shall be eligible to be appointed or remain as a Member-Director;
+    \item each of the most preferred candidates shall be deemed to have been appointed as a Member-Director by ordinary resolution or shall remain as a Member-Director; and
+    \item each of the remaining candidates shall be deemed to have been removed as a Member-Director by ordinary resolution or shall not be appointed as a Member-Director.\footnote{As amended by Special Resolution 2019-8 on 9 February 2019 and Special Resolution 2019-9 on 13 April 2019.}
   \end{enumerate}
   \item In any case where, as a result of death, the Company has no members and no Directors, the personal representatives of the last member to have died have the right, by notice in writing, to appoint a person to be a member.
   \item For the purposes of Article 23.5, where two or more members die in circumstances rendering it uncertain who was the last to die, a younger member is deemed to have survived an older member.
@@ -428,20 +437,20 @@ or otherwise in connection with the exercise of their powers and the discharge o
 
 \begin{enumerate}
   \item The subscribers to the Memorandum are the first members of the Company.\footnote{\label{membership1}Required by \textit{Community Interest Company Regulations 2005} (UK) SI 2005/1788, sch 1(2).}
-  \item Such other persons as are admitted to membership in accordance with the Articles shall be members of the Company.\footnotemark[\ref{membership1}]
-  \item No person shall be admitted a member of the Company unless he or she is approved by the Directors.\footnotemark[\ref{membership1}]
-  \item Every person who wishes to become a member shall deliver to the Company an application for membership in such form (and containing such information) as the Directors require and executed by him or her.\footnotemark[\ref{membership1}]
+  \item Such other persons as are admitted to membership in accordance with the Articles shall be members of the Company.\footnotemark[\getrefnumber{membership1}]
+  \item No person shall be admitted a member of the Company unless he or she is approved by the Directors.\footnotemark[\getrefnumber{membership1}]
+  \item Every person who wishes to become a member shall deliver to the Company an application for membership in such form (and containing such information) as the Directors require and executed by him or her.\footnotemark[\getrefnumber{membership1}]
   \item No person shall be admitted a member of the Company if they have been convicted of, or are currently awaiting trial for, a criminal offence in any jurisdiction that is liable to a penalty of 12 months imprisonment.
 \end{enumerate}
 
 \section{Termination of membership}
 
 \begin{enumerate}
-  \item Membership is not transferable to anyone else.\footnotemark[\ref{membership1}]
+  \item Membership is not transferable to anyone else.\footnotemark[\getrefnumber{membership1}]
   \item Membership is terminated if:
   \begin{enumerate}
-    \item the member dies or ceases to exist,\footnotemark[\ref{membership1}]
-    \item otherwise in accordance with the Articles,\footnotemark[\ref{membership1}]
+    \item the member dies or ceases to exist,\footnotemark[\getrefnumber{membership1}]
+    \item otherwise in accordance with the Articles,\footnotemark[\getrefnumber{membership1}]
     \item the member is convicted of a criminal offence in any jurisdiction that is liable to a penalty of 12 months imprisonment, or
     \item at a meeting of the Directors at which at least half of the Directors are present, a resolution is passed resolving that the member be expelled on the ground that his or her continued membership is harmful to or is likely to become harmful to the interests of the Company. Such a resolution may not be passed unless the member has been given at least 14 Clear Days' notice that the resolution is to be proposed, specifying the circumstances alleged to justify expulsion, and has been afforded a reasonable opportunity of being heard by or of making written representations to the Directors. A member expelled by such a resolution will nevertheless remain liable to pay to the Company any subscription or other sum owed by him or her.
   \end{enumerate}

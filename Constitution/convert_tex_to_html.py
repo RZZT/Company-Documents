@@ -12,7 +12,7 @@ from lxml import etree
 import roman
 
 a = argparse.ArgumentParser()
-a.add_argument('-f', '--file', dest='texfile', type=argparse.FileType('r'), default='./Articles-of-Association.tex')
+a.add_argument('-f', '--file', dest='texfile', type=argparse.FileType('r'), default='./RZZT-Articles-of-Association')
 args = a.parse_args()
 
 cmd = r"sed '/^%%%%%%/,/^%%%%%%/{/^%%%%%%/!{/^%%%%%%/!d;};}' | sed 's/\\part/\\chapter/' | pandoc -f latex -t html5 --section-divs --email-obfuscation=none"
